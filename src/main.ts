@@ -12,7 +12,7 @@ const { loadSprite, add, sprite, pos, area, body, onKeyDown } = k;
 
 async function loadSprites() {
     await Promise.all([
-        loadSprite("player", "/sprites/knight.png"),
+        loadSprite("player", "sprites/knight.png"),
     ]);
 }
 loadSprites();
